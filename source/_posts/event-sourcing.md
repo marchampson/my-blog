@@ -21,7 +21,7 @@ There's a lot of talk at the moment about event sourcing in Laravel. The followi
 >
 > * you foresee that there will be a reporting need in the future, but you don't know yet which data you need to collect for those reports
 
-But, if you've not heard of event sourcing before then the terminology can be confusing. The aim of this post is not to teach, for that, you should follow the excellent weekly streams from <a href="https://www.youtube.com/channel/UCBnj7HfncAygGeyymgydZxQ">Steve McDougall</a>, better known online as <a href="https://twitter.com/JustSteveKing">@JustSteveKing</a>. No, the aim of this post is merely to describe some of the event sourcing terminology in layman's terms. I've been in a number of discussions recently and these seem to be a real stumbling block to getting started for some.
+But, if you've not heard of event sourcing before then the terminology can be confusing. The aim of this post is not to teach, for that, you should follow the excellent weekly streams by <a href="https://www.youtube.com/channel/UCBnj7HfncAygGeyymgydZxQ">Steve McDougall</a>, better known online as <a href="https://twitter.com/JustSteveKing">@JustSteveKing</a>. No, the aim of this post is merely to describe some of the event sourcing terminology in layman's terms. I've been in a number of discussions recently and these seem to be a real stumbling block to getting started for some.
 
 So, here we go... my interpretation of Aggregates, Projectors and Reactors.
 
