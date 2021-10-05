@@ -35,7 +35,7 @@ Because in a nutshell, this is exactly what the aggregate does, it's the startin
 
 **Projector**
 
-Projector classes listen for these events and action upon them accordingly. They are also a *doing* class. Projectors will affect the data. So, for example if the event is to add an item to a shopping basket. Then the projector will be responsible for ensuring the data has been updated.
+Projector classes listen for these events and action upon them accordingly. They are also a *doing* class. **Projectors project the state changes into the application**. So, for example if the event is to add an item to a shopping basket. Then the projector will be responsible for ensuring the data has been updated.
 
 **Reactor**
 
